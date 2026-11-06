@@ -42,7 +42,7 @@ Each branch targets a different SD3.5 conditioning encoder:
 
 ---
 
-## Quick Start — Inference
+## Quick Start: Inference
 
 ```python
 import torch
