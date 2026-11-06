@@ -12,9 +12,6 @@ Update paths in `config.py`:
 
 ```python
 SPEECH_DIR       = "/path/to/speech_files"
-CAPTION_DIR      = "/path/to/caption_files"
-T5_ENCODER_PATH  = "/path/to/sd35"
-T5_TOKENIZER_PATH = "/path/to/sd35"
 OUTPUT_DIR       = "/path/to/output"
 ```
 
