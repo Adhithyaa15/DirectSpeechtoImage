@@ -12,8 +12,6 @@ Update paths in `config.py`:
 
 ```python
 SPEECH_DIR      = "/path/to/speech_files"       # .wav files
-CAPTION_DIR     = "/path/to/caption_files"       # .txt files
-CLIP_G_ENCODER_PATH = "/path/to/sd35"            # SD3.5 model dir
 OUTPUT_DIR      = "/path/to/output"
 ```
 
