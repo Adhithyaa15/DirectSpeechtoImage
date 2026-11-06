@@ -14,7 +14,6 @@ Update paths in `config.py`:
 
 ```python
 SPEECH_DIR   = "/path/to/speech_files"
-CAPTION_DIR  = "/path/to/caption_files"
 OUTPUT_DIR   = "/path/to/output"
 ```
 
