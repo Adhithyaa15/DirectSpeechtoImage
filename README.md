@@ -1,6 +1,6 @@
 # Direct Speech-to-Image Synthesis
 
-Generate images directly from speech audio using a single unified checkpoint — no text input required at inference time.
+Generate images directly from speech audio using a single unified checkpoint with no text input required at inference time.
 
 ---
 
