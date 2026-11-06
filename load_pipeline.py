@@ -28,7 +28,6 @@ def load(checkpoint_path: str, device: str | None = None):
     import torch
     ckpt = torch.load(checkpoint_path, map_location="cpu", weights_only=False)
 
-    # Write bundled sources to a temp directory and add to sys.path
     _tmp = tempfile.mkdtemp(prefix="speech_pipeline_")
     for key, filename in [
         ("_model_src",          "model.py"),
@@ -40,7 +39,6 @@ def load(checkpoint_path: str, device: str | None = None):
     if _tmp not in sys.path:
         sys.path.insert(0, _tmp)
 
-    # Force fresh import from the extracted sources
     for mod in ("model", "load_centroids", "speech_pipeline"):
         sys.modules.pop(mod, None)
 
